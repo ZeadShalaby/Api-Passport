@@ -14,7 +14,7 @@
     <br/>
   </p>
   
-![Forks](https://img.shields.io/github/forks/ZeadShalaby/Api-Passport/?style=social) ![Issues](https://img.shields.io/github/issues/ZeadShalaby/Api-Passport/) ![License](https://img.shields.io/github/license/ZeadShalaby/Gadwalls-System)
+![Forks](https://img.shields.io/github/forks/ZeadShalaby/Salla-System?style=social) ![Issues](https://img.shields.io/github/issues/ZeadShalaby/Salla-System) ![License](https://img.shields.io/github/license/ZeadShalaby/Salla-System)
 
 ## Table Of Contents
 
