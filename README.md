@@ -93,9 +93,15 @@ Install dependencies
      ```
 
 2. **Generate an Application Key**:
-   - Run the command:
+     - Run the command:
      ```bash
      php artisan key:generate
+     ```
+   
+3. **Python Path**:
+   - add in env this command:
+     ```bash
+     python_path = "your path to python.exe"
      ```
      
 4. **Configure Database Settings**:
