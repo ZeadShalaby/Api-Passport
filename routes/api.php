@@ -26,14 +26,16 @@ Route::post('/register', [RegisterController::class, 'register']);
 
 Route::post('/login', [RegisterController::class, 'login']);
 
-Route::post('/artisan/python/first-way', [PythonController::class, 'artisan']);
-Route::post('/execute/python/second-way', [PythonController::class, 'execute']);
-Route::post('/process/python/third-way', [PythonController::class, 'process']);
 
 Route::middleware(['checkToken:api'])->group(function () {
 
     Route::resource('/products', ProductController::class);
     Route::post('/logout', [RegisterController::class, 'logout']);
     Route::get('/profile', [RegisterController::class, 'profile']);
+
+    Route::post('/artisan/python/first-way', [PythonController::class, 'artisan']);
+    Route::post('/execute/python/second-way', [PythonController::class, 'execute']);
+    Route::post('/process/python/third-way', [PythonController::class, 'process']);
+
 
 });
