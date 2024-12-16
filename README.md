@@ -6,7 +6,7 @@
   </a>
 
 <h3 align="center"> Api-Passport </h3>
-<h3 align="center"> it's a project use different way to run Python code like exec , Artisan , Symfony Process </h3>
+<h3 align="center"> it's a project use different way to run Python code like exec , Artisan, Symfony Process </h3>
 
   <p align="center">
      Project Api Passport
